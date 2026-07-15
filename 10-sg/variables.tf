@@ -15,7 +15,7 @@ variable "environment" {
 variable "sg_name" {
     default = [
         #databsae
-        "mongodb","redis","mysql","rebbitmq",
+        "mongodb","redis","mysql","rabbitmq",
         /* #backend
         "catalogue","user","cart","shipping","payment",
         #frontend
